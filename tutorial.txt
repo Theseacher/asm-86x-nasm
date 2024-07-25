@@ -1,0 +1,51 @@
+integer constant :
+    is made up of an optianal leading sign , one or 
+    more digits and an optional suffix character 
+    (called a radical) indicating the number base.\\
+    
+
+
+    radix may be one of the following (upper or lower case)
+
+    h hexadecimal                   r encoded real
+    q/o octal                       t decimal (alternate)
+    d decimal                       y binary  (alternate)
+    b binary
+
+
+
+    e.g of radix
+
+    26 decimal
+    26d decimal
+    11010011b binary
+    42q octal
+    42o octal
+    1ah hexadecimal
+    0A3h hexadecimal
+
+
+integers expressions:
+    it is  a mathimathical expression involing integer value
+
+    order of precedence 
+    ()  1
+    unary +,- 2
+    *,/ 3
+    MOD 3
+    +,- 4
+
+
+
+real number constant:
+    are represented as a decimal reals or encoded(hexadecimal) reals.
+
+    decimal real: contains an optonail sign followed by an 
+    
+
+
+ 
+  ld -m elf_i386 -o ~usereg userag.o
+-------run--------
+
+nasm -felf64 hello.asm && ld hello.o && ./a.out
