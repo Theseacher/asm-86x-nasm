@@ -9,4 +9,8 @@ global _start
 
 _start:
 
-        mov 
+        mov bl, [num]
+        mov bh,[num2]
+        add bh,bl
+        mov eax,1
+        int 80h

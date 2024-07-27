@@ -43,7 +43,7 @@ real number constant:
     decimal real: contains an optonail sign followed by an 
     
 
-
+    nasm -f elf32 hello.asm -o hello.o
  
   ld -m elf_i386 -o ~usereg userag.o
 -------run--------
